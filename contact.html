@@ -30,9 +30,19 @@
 
     <main>
         <h1>Contact us</h1>
-        <section>
-            <!--Form goes here-->
-        </section>
+        <form method="post" class="contact-form">
+            <label for="firstname">First name</label>
+            <input type="text" name="Firstname" id="firstname">
+            <label for="lastname">Last name</label>
+            <input type="text" name="Lastname" id="lastname">        
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email">
+            <label for="subject">Subject</label>
+            <input type="text" name="Subject" id="subject">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+            <input type="submit" value="Send Form" class="button">
+        </form>
     </main>
 
     <footer>
@@ -55,7 +65,7 @@
         </section>
         <section>
             <h3>Contact Us</h3>
-            <a href="contributions.html">Contact Form</a>
+            <a href="contact.html">Contact Form</a>
             <p>Address: Torgalmenningen 1,</p>
             <p>5013 Bergen</p>
             <p>Email: support@bergenscience.no</p>
