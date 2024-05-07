@@ -5,12 +5,3 @@ body {
     flex-direction: column;
 }
 
-h1, 
-h2 {
-    font-family: "Oxanium";
-}
-
-h3, 
-p {
-    font-family: "Open Sans";
-}
