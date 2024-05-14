@@ -4,8 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bergen Science museum is a new, modern, interactive museum with interesting activities, exhibits and events for children, youth and families." />
     <title>Bergen Science Museum | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a5e5d5dde4.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,52 +33,59 @@
     </header>
 
     <main>
-        <img src="images/scott-webb-102825.jpg" alt="A building wall in colourful tiles saying Museum. Blue sky and green bushes.">
-        <section>
-            <h1>Explore together!</h1>
-            <p>
-                Come join us at Bergen Science Museum where we’re committed to making science accessible to all. 
-            </p>
-            <p>
-                Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
-            </p>
-            <p>
-                The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
-            </p>
-            <p>
-                We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
-            </p>
-            <img src="images/andrew-ruiz-348421.jpg" alt="Person in a yellow suit and white helmet, strapped into a seat inside some glass walls.">
+        <img src="images/exhibition-1863344_1920.jpg" class="img-museum" alt="A bright white museum exhibition space with benches, a blue spaceship sculpture, a pink giraffe sculpture and pictures on the walls.">
+        <section class="explore">
+            <section>
+                <h1>Explore together!</h1>
+                <p>
+                    Come join us at Bergen Science Museum where we’re committed to making science accessible to all. 
+                </p>
+                <p>
+                    Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+                </p>
+                <p>
+                    The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+                </p>
+                <p>
+                    We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
+                </p>
+            </section>
+            <div class="image">
+                <img src="images/andrew-ruiz-348421.jpg" class="img-round" alt="Person in a yellow suit and white helmet, strapped into a seat inside some glass walls.">
+            </div>
         </section>
-        <section>
+        <section class="bg-purple">
             <h2>Events and exhibitions</h2>
-            <div>
-                <img src="images/roberto-nickson-396152.jpg" alt="Big, dark museum space in stone with pillars, arches and balconies, and a big elephant on display.">
-                <h3>Event-Night in the Museum</h3>
-                <p>
-                    Get ready to rough it as we go exploring the wonders of science. 
-                </p>
-            </div>
-            <div>
-                <img src="images/celso-405219.jpg" alt="Eight moons in a horizontal line, displaying red moon phases.">
-                <h3>Exhibition - Cosmology</h3>
-                <p>
-                    Explore the wonders of our cosmos 
-                </p>
-            </div>
-            <div>
-                <img src="images/billetto-editorial-334686.jpg" alt="Person wearing VR glasses, wearing a white cape, holding a paint brush and a paper plate with paint colors, painting on a canvas.">
-                <h3>Exhibition - Robotics & AI</h3>
-                <p>
-                    Robotics and artificial intelligence are the science of the future. 
-                </p>
-            </div>
-            <div>
-                <a href="events.html">All events</a>
-                <a href="exhibitions.html">All exhibitions</a>
-            </div>
+            <section class="inspiration">
+                <div>
+                    <img src="images/roberto-nickson-396152.jpg" class="img-rectangle" alt="Big, dark museum space in stone with pillars, arches and balconies, and a big elephant on display.">
+                    <h3>Event-Night in the Museum</h3>
+                    <p>
+                        Get ready to rough it as we go exploring the wonders of science. 
+                    </p>
+                </div>
+                <div>
+                    <img src="images/celso-405219.jpg" class="img-rectangle" alt="Eight moons in a horizontal line, displaying red moon phases.">
+                    <h3>Exhibition - Cosmology</h3>
+                    <p>
+                        Explore the wonders of our cosmos 
+                    </p>
+                </div>
+                <div>
+                    <img src="images/billetto-editorial-334686.jpg" class="img-rectangle" alt="Person wearing VR glasses, wearing a white cape, holding a paint brush and a paper plate with paint colors, painting on a canvas.">
+                    <h3>Exhibition - Robotics & AI</h3>
+                    <p>
+                        Robotics and artificial intelligence are the science of the future. 
+                    </p>
+                </div>
+                <div>
+                    <a href="events.html" class="cta">All events</a>
+                    <a href="exhibitions.html" class="cta">All exhibitions</a>
+                </div>
+            </section>
         </section>
-        <section>
+        <section class="kids">
+            <img src="images/andrew-ruiz-348421.jpg" class="img-round" alt="Picture with red filter. Kid wearing VR glasses, a headset, looking up at something.">
             <h2>Are you a young person looking to learn more about science?</h2>
             <p>
                 Come on down to our museum, there’s plenty to see and do.
@@ -88,12 +99,11 @@
             <p>
                 During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
             </p>
-            <a href="contact.html">Contact us</a>
-            <img src="images/samuel-zeller-158996.jpg" alt="Picture with red filter. Kid wearing VR glasses, a headset, looking up at something.">
+            <a href="contact.html" class="cta">Contact us</a>
         </section>
-        <section>
+        <section class="bg-green adults">
             <div>
-                <img src="images/teacher-2816112.jpg" alt="An illustration of a smiling teacher with brown hair, blue glasses, a stirped shirt and a red skirt, standing at a desk, showing two glass flasks with red and green liquids.">
+                <img src="images/andrew-ruiz-348421.jpg" class="img-round" alt="An illustration of a smiling teacher with brown hair, blue glasses, a stirped shirt and a red skirt, standing at a desk, showing two glass flasks with red and green liquids.">
                 <h2>For Teachers</h2>
                 <p>
                     As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.
@@ -101,10 +111,10 @@
                 <p>
                     Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.
                 </p>
-                <a href="contact.html">Contact us</a>
+                <a href="contact.html" class="cta">Contact us</a>
             </div>
             <div>
-                <img src="images/people-219985_1280.jpg" alt="Close-up of a person looking into a microscope">
+                <img src="images/andrew-ruiz-348421.jpg" class="img-round" alt="Close-up of a person looking into a microscope">
                 <h2>For Researchers</h2>
                 <p>
                     Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. 
@@ -112,7 +122,7 @@
                 <p>
                     We have online records, laboratory space, and a working relationship with a number of universities around the country.
                 </p>
-                <a href="contact.html">Contact us</a>
+                <a href="contact.html" class="cta">Contact us</a>
             </div>
         </section>
     </main>

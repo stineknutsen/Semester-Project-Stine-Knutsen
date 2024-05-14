@@ -5,3 +5,79 @@ body {
     flex-direction: column;
 }
 
+/*Typography*/
+
+h1, 
+h2, 
+.cta {
+    font-family: Oxanium;
+}
+
+h1, h2, h3, .cta {
+    font-style: bold;
+}
+
+h3, p, a {
+    font-family: 'Open Sans';
+}
+
+/*Colors*/
+
+.bg-blue {
+    background-color: #2699DA20;
+}
+
+.bg-purple {
+    background-color: #CE30E820;
+}
+
+.bg-green {
+    background-color: #57A81720;
+}
+
+/*Buttons and links*/
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    background-color: #57A817;
+    color: #FFF;
+    padding: 20px;
+}
+
+.bg-purple .cta {
+    background-color: #CE30E8;
+}
+
+.img-museum {
+    width: 100%;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+}
+
+footer a {
+    display: block;
+    padding: 8px 0px;
+}
+
