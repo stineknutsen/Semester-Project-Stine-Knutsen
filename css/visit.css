@@ -1,0 +1,19 @@
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    iframe {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    iframe {
+        max-height: 350px;
+        margin: 15px;
+    }
+}

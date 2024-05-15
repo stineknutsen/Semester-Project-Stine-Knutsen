@@ -8,12 +8,16 @@
         font-size: 18px;
     }
     
-    h3 {
+    h3, label {
         font-size: 16px;
     }
     
-    p {
+    p, a {
         font-size: 16px;
+    }
+
+    h1, h2, h3, p, footer a {
+        padding: 0px 10px;
     }
 
     .logo {
@@ -23,24 +27,33 @@
 
     i {
         padding-right: 15px;
-        padding-top: 20px;
-        position: static;
+        padding-top: 21px;
     }
 
     nav {
         display: none;
+        position: absolute;
         text-align: center;
-        position: relative;
-        justify-content: space-evenly;
-        width: 100%;
-        top: 100px;
-        background-color: #FFF;
-        outline: solid 1px #000;
+        justify-content: end;
+        background-color: #CE30E8;
+        width: 30%;
+        top: 58px;
+        right:0px;
+        padding: 20px;
         z-index: 1000;
     }
-    
-    #hamburger-menu {
-        display: none;
+
+    nav ul {
+        padding: 0px;
+        list-style: none;
+    }
+
+    nav li {
+        padding: 0px;
+    }
+
+    nav li a {
+        color: #FFF;
     }
     
     #hamburger-menu:checked ~ nav {
@@ -49,18 +62,23 @@
 
     .img-round,
     .img-round-small {
-        max-width: 300px;
+        max-width: 75%;
         border-radius: 50%;
+        margin: 10px;
     }
 
     .img-rectangle {
-        width: 300px;
-        height: 230px;
+        max-width: 80%;
     }
 
     footer {
-        flex-direction: column;
+        grid-template-columns: auto;
     }
+
+    footer section a {
+        padding-bottom: 12px;
+    }
+    
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -72,12 +90,16 @@
         font-size: 25px;
     }
     
-    h3 {
+    h3, label {
         font-size: 20px;
     }
     
-    p {
+    p, a {
         font-size: 18px;
+    }
+
+    h1, h2, h3, p, footer a {
+        padding: 0px 15px;
     }
 
     .logo {
@@ -85,44 +107,62 @@
     }
 
     i {
-        padding: 15px;
+        padding: 24px;
     }
 
     nav {
         display: none;
+        position: absolute;
         text-align: center;
-        width: 100%;
-        top: 100px;
-        background-color: #FFF;
-        outline: solid 1px #000;
-        z-index: 1000;
+        justify-content: end;
+        background-color: #CE30E8;
+        width: 30%;
+        top: 67px;
+        right:0px;
+        padding: 20px;
+        z-index: 99;
     }
-    
-    #hamburger-menu {
-        display: none;
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    nav li {
+        padding: 0px;
+    }
+
+    nav li a {
+        color: #FFF;
+    }
+
+    #hamburger-menu:checked ~ nav {
+        display: block;
     }
 
     .img-round,
     .img-round-small {
-        width: 350px;
-        height: 350px;
+        max-width: 50%;
         border-radius: 50%;
+        margin: 15px;
     }
 
     .img-rectangle {
-        width: 380px;
-        height: 270px;
+        max-width: 90%;
     }
 
     footer {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr;
     }
 
     footer section {
         margin: 10px;
     }
+
+    footer section a {
+        padding-bottom: 18px;
+    }
+    
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
@@ -134,12 +174,16 @@
         font-size: 30px;
     }
     
-    h3 {
+    h3, label {
         font-size: 25px;
     }
     
-    p {
+    p, a {
         font-size: 20px;
+    }
+
+    h1, h2, footer a {
+        padding: 0px 15px;
     }
 
     header label {
@@ -156,24 +200,28 @@
 
     nav li {
         display: inline-block;
+        padding: 13px;
     }
 
     .img-round,
     .img-round-small {
-        width: 375px;
-        height: 375px;
+        max-width: 400px;
         border-radius: 50%;
+        margin: 15px;
     }
 
     .img-rectangle {
-        width: 400px;
-        height: 300px;
+        max-width: 90%;
     }
 
     footer {
-        flex-direction: row;
-        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    footer section a {
+        padding-bottom: 20px;
+    }
+    
 }
 
 @media only screen and (min-width: 1201px) {
@@ -185,12 +233,20 @@
         font-size: 30px;
     }
     
-    h3 {
+    h3, label {
         font-size: 25px;
     }
     
-    p {
+    p, a {
         font-size: 20px;
+    }
+
+    h1, h2, footer a {
+        padding: 0px 15px;
+    }
+
+    footer li {
+        padding: 20px;
     }
 
     header label {
@@ -198,7 +254,7 @@
     }
 
     .logo {
-        max-width: 540px;
+        max-width: 450px;
     }
 
     nav {
@@ -207,28 +263,31 @@
 
     nav li {
         display: inline-block;
+        padding: 20px;
     }
 
     .img-round {
-        width: 425px;
-        height: 425px;
+        max-width: 400px;
         border-radius: 50%;
+        margin: 15px;
     }
 
     .img-round-small {
-        width: 400px;
-        height: 400px;
+        max-width: 350px;
         border-radius: 50%;
+        margin: 15px;
     }
 
     .img-rectangle {
-        width: 433;
-        height: 294;
+        max-width: 90%;
     }
 
     footer {
-        flex-direction: row;
-        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer section a {
+        padding-bottom: 20px;
     }
 
 }

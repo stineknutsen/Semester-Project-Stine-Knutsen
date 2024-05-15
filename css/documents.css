@@ -1,0 +1,18 @@
+.bg-blue, 
+.bg-green,
+h1 {
+    padding: 10px;
+}
+
+.documents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media only screen and (min-width: 901px) {
+    .documents{
+        flex-direction: row;
+        gap: 20px;
+    }
+}
