@@ -1,4 +1,6 @@
-
+.visit {
+    padding: 5px;
+}
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
     iframe {
@@ -10,10 +12,11 @@
     .visit {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 15px;
+        gap: 20px;
     }
 
     iframe {
         max-height: 350px;
-        margin: 15px;
     }
 }

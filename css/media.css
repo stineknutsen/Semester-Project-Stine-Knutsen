@@ -36,6 +36,7 @@
         text-align: center;
         justify-content: end;
         background-color: #CE30E8;
+        border-radius: 20px 0px;
         width: 30%;
         top: 58px;
         right:0px;
@@ -73,6 +74,7 @@
 
     footer {
         grid-template-columns: auto;
+        padding: 10px;
     }
 
     footer section a {
@@ -116,8 +118,9 @@
         text-align: center;
         justify-content: end;
         background-color: #CE30E8;
+        border-radius: 20px 0px;
         width: 30%;
-        top: 67px;
+        top: 68px;
         right:0px;
         padding: 20px;
         z-index: 99;
@@ -153,6 +156,7 @@
 
     footer {
         grid-template-columns: 1fr 1fr;
+        padding: 8px;
     }
 
     footer section {
@@ -182,7 +186,7 @@
         font-size: 20px;
     }
 
-    h1, footer a {
+    h1 {
         padding: 0px 15px;
     }
 
@@ -216,6 +220,7 @@
 
     footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10px;
     }
 
     footer section a {
@@ -241,7 +246,7 @@
         font-size: 20px;
     }
 
-    h1, footer a {
+    h1 {
         padding: 0px 15px;
     }
 
@@ -284,6 +289,7 @@
 
     footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10px;
     }
 
     footer section a {
