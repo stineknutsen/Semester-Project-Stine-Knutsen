@@ -13,21 +13,26 @@ section{
         flex-direction: column;
         align-items: center;
         text-align: left;
-        padding: 20px 0px;
-        margin: 20px;
-        background-color: #FFF;
+        padding: 5px 0px;
+        margin: 5px;
     }
 
     .grid-item h3, .grid-item p{
         width: 80%;
     }
 
-    .grid-container img {
-        padding: 0px 10px;
-    }
-
     .grid-container p {
         max-width: 80%;
+    }
+
+    .adults {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .adult {
+        padding: 30px 0px;
     }
 
     .cta {
@@ -49,8 +54,23 @@ section{
         margin: 10px;
     }
 
-    .grid-container img {
-        padding: 0px 15px;
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        padding: 10px 0px;
+        margin: 5px;
+    }
+
+    .grid-item h3, .grid-item p{
+        width: 90%;
+    }
+
+    .adults {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 
     .cta {
@@ -61,17 +81,55 @@ section{
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
 
-    .explore, .kids {
-        display: flex;
-        flex-direction: row;
+    .explore {
+        display: grid;
+        grid-template-columns: 1fr auto;
         align-items: center;
+    }
+    
+    .kids {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    .explore p, 
+    .kids p {
+        padding: 8px 15px;
+    }
+
+    .kids h2,
+    .bg-purple h2 {
+        padding: 0px 15px;
     }
 
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
         margin: 10px;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        padding: 10px 0px;
+        margin: 5px;
+    }
+
+    .grid-item h3, .grid-item p{
+        width: 90%;
+    }
+
+    .adults {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .adult {
+        padding: 30px 30px;
     }
 
     .cta {
@@ -87,11 +145,44 @@ section{
         align-items: center;
     }
 
+    .explore p, 
+    .kids p {
+        padding: 8px 15px;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
         margin: 10px;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        padding: 10px 0px;
+        margin: 10px;
+    }
+
+    .grid-item h3, .grid-item p{
+        width: 90%;
+    }
+
+    .adults {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .adult {
+        padding: 30px 30px;
+    }
+
+    .kids h2,
+    .bg-purple h2 {
+        padding: 0px 15px;
     }
 
     .cta {
