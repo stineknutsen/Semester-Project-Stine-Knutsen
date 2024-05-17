@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.contact-form div {
+.contact-form section {
     display: flex;
     flex-direction: column;
     gap: 5px;

@@ -5,24 +5,18 @@ section{
 @media only screen and (min-width: 300px) and (max-width: 600px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .grid-item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: left;
-        padding: 5px 0px;
-        margin: 5px;
     }
 
-    .grid-item h3, .grid-item p{
+    .grid-item article {
         width: 80%;
-    }
-
-    .grid-container p {
-        max-width: 80%;
     }
 
     .adults {
@@ -51,19 +45,16 @@ section{
         display: grid;
         grid-template-columns: 1fr 1fr; 
         gap: 10px;
-        margin: 10px;
     }
 
     .grid-item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: left;
-        padding: 10px 0px;
-        margin: 5px;
+        gap: 15px;
     }
 
-    .grid-item h3, .grid-item p{
+    .grid-item article {
         width: 90%;
     }
 
@@ -106,19 +97,16 @@ section{
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 10px;
+        gap: 10px;
     }
 
     .grid-item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: left;
-        padding: 10px 0px;
-        margin: 5px;
     }
 
-    .grid-item h3, .grid-item p{
+    .grid-item article {
         width: 90%;
     }
 
@@ -154,19 +142,15 @@ section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
-        margin: 10px;
     }
 
     .grid-item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: left;
-        padding: 10px 0px;
-        margin: 10px;
     }
 
-    .grid-item h3, .grid-item p{
+    .grid-item article {
         width: 90%;
     }
 

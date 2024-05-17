@@ -8,11 +8,7 @@
         font-size: 18px;
     }
     
-    h3, label {
-        font-size: 16px;
-    }
-    
-    p, a {
+    h3, label, p, a {
         font-size: 16px;
     }
 
@@ -21,7 +17,7 @@
     }
 
     .logo {
-        max-width: 240px;
+        width: 240px;
         padding: 10px;
     }
 
@@ -50,7 +46,7 @@
     }
 
     nav li {
-        padding: 0px;
+        padding: 10px 0px;
     }
 
     nav li a {
@@ -69,12 +65,12 @@
     }
 
     .img-rectangle {
-        max-width: 80%;
+        width: 80%;
     }
 
     footer {
         grid-template-columns: auto;
-        padding: 10px;
+        padding: 30px 10px;
     }
 
     footer section a {
@@ -132,7 +128,7 @@
     }
 
     nav li {
-        padding: 0px;
+        padding: 10px 0px;
     }
 
     nav li a {
@@ -151,10 +147,14 @@
     }
 
     .img-rectangle {
-        max-width: 90%;
+        width: 90%;
     }
 
     footer {
+        padding: 40px 0px;
+    }
+
+    .footer-grid {
         grid-template-columns: 1fr 1fr;
         padding: 8px;
     }
@@ -209,7 +209,7 @@
 
     .img-round,
     .img-round-small {
-        max-width: 75%;
+        max-width: 90%;
         border-radius: 50%;
         margin: 15px;
     }
@@ -219,8 +219,13 @@
     }
 
     footer {
+        padding: 40px 0px;
+    }
+
+    .footer-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 10px;
+        gap: 10px;
     }
 
     footer section a {
@@ -288,6 +293,10 @@
     }
 
     footer {
+        padding: 40px 0px;
+    }
+    
+    .footer-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 10px;
     }
