@@ -194,6 +194,14 @@
         display: none;
     }
 
+    a:hover {
+        color: #2699DA;
+    }
+    
+    .active {
+        color: #2699DA;
+    }
+
     .logo {
         max-width: 400px;
     }
@@ -255,12 +263,16 @@
         padding: 0px 15px;
     }
 
-    footer li {
-        padding: 20px;
-    }
-
     header label {
         display: none;
+    }
+
+    a:hover {
+        color: #2699DA;
+    }
+    
+    .active {
+        color: #2699DA;
     }
 
     .logo {
@@ -299,6 +311,10 @@
     .footer-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 10px;
+    }
+
+        footer li {
+        padding: 20px;
     }
 
     footer section a {
