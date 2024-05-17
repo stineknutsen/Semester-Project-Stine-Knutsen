@@ -51,6 +51,8 @@ a {
 .cta {
     background-color: #57A817;
     color: #FFF;
+    font-size: 20px;
+    max-width: 200px;
     padding: 15px 30px;
 }
 
@@ -61,6 +63,7 @@ a {
 
 .cta-purple {
     background-color: #CE30E8;
+    color: #FFF;
 }
 
 .img-museum {
