@@ -31,7 +31,7 @@
         position: absolute;
         text-align: center;
         justify-content: end;
-        background-color: #CE30E8;
+        background-color: #B216CA;
         border-radius: 20px 0px;
         width: 30%;
         top: 58px;
@@ -113,7 +113,7 @@
         position: absolute;
         text-align: center;
         justify-content: end;
-        background-color: #CE30E8;
+        background-color: #B216CA;
         border-radius: 20px 0px;
         width: 30%;
         top: 68px;
@@ -195,11 +195,11 @@
     }
 
     a:hover {
-        color: #CE30E8;
+        color: #B216CA;
     }
     
     .active {
-        color: #CE30E8;
+        color: #B216CA;
     }
 
     .logo {
@@ -268,11 +268,11 @@
     }
 
     a:hover {
-        color: #CE30E8;
+        color: #B216CA;
     }
     
     .active {
-        color: #CE30E8;
+        color: #B216CA;
     }
 
     .logo {
