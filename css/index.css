@@ -77,7 +77,7 @@ section{
         grid-template-columns: 1fr auto;
         align-items: center;
     }
-    
+
     .kids {
         display: grid;
         grid-template-columns: auto 1fr;
