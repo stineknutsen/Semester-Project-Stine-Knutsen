@@ -22,7 +22,7 @@ The goal for this assignment was to design and build a responsive website with f
 
 ## Getting Started
 
-1. Clone the repo:
+1. Clone this repo
 
 2. Open the project in your browser
 
